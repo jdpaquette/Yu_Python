@@ -2,6 +2,5 @@ import random
 
 friends = ["Joe", "Brooke", "Chloe", "Jacob", "Brian"]
 roulette = random.randint(0, 4)
-who_pays = friends[roulette]
 print(f"The random roulette selected number {roulette},")
-print(f"and the person who will pay the bill is {who_pays}!!")
+print(f"and the person who will pay the bill is {friends[roulette]}!!")
