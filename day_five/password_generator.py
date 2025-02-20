@@ -71,4 +71,9 @@ for i in range(0, number_numbers):
     password_list.append(random.choice(numbers))
 
 random.shuffle(password_list)
-print(password_list)
+
+password = ""
+for i in password_list:
+    password += i
+
+print(f"Your password is: {password}")
